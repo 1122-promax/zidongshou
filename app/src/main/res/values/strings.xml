@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">原神启动</string>
+    <string name="title_activity_main">原神启动</string>
+    <string name="accessibility_description">
+        自动手用于处理重复性的任务，只用来识别任务所在的App界面信息，不监听您的任何隐私。
+    </string>
+    <string name="action_settings">设置</string>
+</resources>

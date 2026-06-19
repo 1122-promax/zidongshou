@@ -1,0 +1,26 @@
+buildscript {
+
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.1.0'
+
+    }
+}
+
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
+        flatDir { dirs "$rootDir/app/libs" }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
